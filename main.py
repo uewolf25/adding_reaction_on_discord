@@ -16,7 +16,7 @@ sweate_drops = "\N{Splashing Sweat Symbol}"
 @client.event
 async def on_message(message):
   # 発言した特定の人物
-  a_person = 430811656189378561
+  a_person = 627535204164173824
 
   # 送信者がBotの場合は反応しない
   if message.author.bot:
