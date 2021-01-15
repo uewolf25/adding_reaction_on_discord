@@ -1,6 +1,11 @@
+#!/.anyenv/envs/pyenv/shims/python
+# -*- coding: utf-8 -*-
+
 import discord
 
-TOKEN = "Nzk5NTcxMjAyMjEzMTUwNzIw.YAFgtQ.7QX9buzIyU-1L39zok08QC0KNVU"
+import apiKey
+
+TOKEN = str(apiKey.TOKEN)
 
 client = discord.Client()
 
