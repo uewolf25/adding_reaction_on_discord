@@ -10,4 +10,8 @@ dotenv.load_dotenv(dotenv_path)
 
 #　環境変数をセット
 TOKEN = os.environ.get("TOKEN")
+MY = os.environ.get("MY")
+UN = os.environ.get("UN")
+AUTHOR = os.environ.get("AUTHOR")
+DEBUG_CH = os.environ.get("DEBUG_CH")
 
