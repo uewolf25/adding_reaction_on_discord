@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 bananas = [
-  "\N{Banana}"
+  "\N{Banana}",
   "\N{Splashing Sweat Symbol}"
 ]
 
