@@ -39,7 +39,7 @@ async def on_message(message):
       except Exception as identifier:
         await ch.send('Raise exception by MY')
 
-  elif message.author.id == UN:
+  if message.author.id == UN:
     for item in bananas:
       try:
         await message.add_reaction(item)
